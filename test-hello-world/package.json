@@ -1,0 +1,12 @@
+{
+  "name": "test-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Mael Le Guen",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "hello-world": "file:../hello-world/hello-world-1.0.0.tgz"
+  }
+}

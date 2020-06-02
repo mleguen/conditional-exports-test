@@ -1,0 +1,23 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "prepare": "npm run compile"
+  },
+  "author": "Mael Le Guen",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  },
+  "files": [
+    "build",
+    "index.*"
+  ],
+  "exports": {
+    "import": "./index.mjs",
+    "require": "./index.js"
+  }
+}
